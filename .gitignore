@@ -2,3 +2,9 @@
 git reset dec5.sample
 git rm --cached dec5.sample
 
+$ cat .gitignore
+*.log
+  
+$ git add -f debug.log
+  
+$ git commit -m "Force adding debug.log"
