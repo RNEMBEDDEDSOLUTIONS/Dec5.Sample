@@ -1,2 +1,4 @@
 *.Idb
+git reset dec5.sample
+git rm --cached dec5.sample
 
